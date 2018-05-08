@@ -1,4 +1,4 @@
-# EAST-haozheng
+# EAST_ICPR
 
 ### Introduction
 This is a repository forked from [argman/EAST](https://github.com/argman/EAST) for the [ICPR MTWI 2018 CHALLENGE](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.144ed780W1xl9s&raceId=231651).
@@ -19,7 +19,7 @@ Author: [Haozheng Li](https://github.com/HaozhengLi)
 ### Transform
 Some data in the dataset is abnormal, just like [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651). Abnormal means that the ground true labels are anticlockwise, or the images are not in 3 channels. Then errors like ['poly in wrong direction'](https://github.com/argman/EAST/issues?utf8=%E2%9C%93&q=poly+in+wrong+direction) will occur while using [argman/EAST](https://github.com/argman/EAST).
 
-So I wrote a matlab program to check and transform the dataset. The program named <[transform.m](https://github.com/HaozhengLi/EAST-haozheng/tree/master/data_transform/transform.m)> is in the folder 'data_transform/' and its parameters are descripted as blow:
+So I wrote a matlab program to check and transform the dataset. The program named <[transform.m](https://github.com/HaozhengLi/EAST_ICPR/tree/master/data_transform/transform.m)> is in the folder 'data_transform/' and its parameters are descripted as blow:
 ```
 icpr_img_folder = 'image_9000\';                   %origin images
 icpr_txt_folder = 'txt_9000\';                     %origin ground true labels
@@ -71,11 +71,11 @@ Then get the results in 'results/'.
 
 ### Results
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651):
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_1.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_2.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_3.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_4.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_5.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_1.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_2.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_3.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_4.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_5.jpg)
 
 # Have fun!! :)
 
