@@ -54,18 +54,17 @@ Prepare the training set and run:
 ```
 python multigpu_train.py --gpu_list=0 --input_size=512 --batch_size_per_gpu=8 \
 --checkpoint_path=models/east_icpr2018_resnet_v1_50_rbox/ \
---text_scale=512 --training_data_path=data/ICPR2018_training/ --geometry=RBOX \
---learning_rate=0.0001 --num_readers=18 --pretrained_model_path=models/resnet_v1_50.ckpt \
---restore=True --max_steps=50000
+--text_scale=512 --training_data_path=data/ICPR2018/ --geometry=RBOX \
+--learning_rate=0.0001 --num_readers=18 --max_steps=50000
 ```
 ***Note 1: Images and ground true labels files must be renamed as <img_1>, <img_2>, ..., <img_xxx> while using argman/EAST. Please see the examples in the folder 'training_samples/'.
-<br>Note 2: If ```--restore=True```, training will restore from checkpoint and ignore the pre-trained model. If ```--restore=False```, training will delete checkpoint and initialize with the pre-trained model (if exists).
+<br>Note 2: If ```--restore=True```, training will restore from checkpoint and ignore the ```--pretrained_model_path```. If ```--restore=False```, training will delete checkpoint and initialize with the ```--pretrained_model_path``` (if exists).
 <br>Note 3: See [argman/EAST#train](https://github.com/argman/EAST#train) for more details.***
 
 ### Test
 Prepare the test set and run:
 ```
-python eval.py --test_data_path=data/ICPR2018_validation/ --gpu_list=0 \
+python eval.py --test_data_path=data/ICPR2018/ --gpu_list=0 \
 --checkpoint_path=models/east_icpr2018_resnet_v1_50_rbox_100k/ --output_dir=results/100k/
 ```
 Then get the results in 'results/'.
