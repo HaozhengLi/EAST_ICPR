@@ -71,11 +71,11 @@ Then get the results in 'results/'.
 
 ### Results
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651):
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/east_icdar2015_resnet_v1_50_rbox/img_1.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/east_icdar2015_resnet_v1_50_rbox/img_2.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/east_icdar2015_resnet_v1_50_rbox/img_3.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/east_icdar2015_resnet_v1_50_rbox/img_4.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/east_icdar2015_resnet_v1_50_rbox/img_5.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_1.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_2.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_3.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_4.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST-haozheng/blob/master/results/100k/img_5.jpg)
 
 # Have fun!! :)
 
