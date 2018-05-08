@@ -39,7 +39,7 @@ transform_list_name = 'transform_list.txt';        %file name of the rename list
 2. Resnet_V1_101 Models trained on [ICPR MTWI 2018 (train)](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651) + [ICDAR 2017 MLT (train + val)](http://rrc.cvc.uab.es/?ch=8&com=downloads) + [RCTW-17 (train)](http://www.icdar2017chinese.site:5080/dataset/): [[100k steps](https://pan.baidu.com/s/1EDt1eN99jGRkE641RrGgNQ)]
 3. Resnet_V1_101 Models pre-trained on Models-2, then trained on just [ICPR MTWI 2018 (train)](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651): [[300k steps]()]
 3. (In [argman/EAST](https://github.com/argman/EAST)) Resnet_V1_50 Models trained on ICDAR 2013 (train) + ICDAR 2015 (train): [[50k steps](https://pan.baidu.com/s/1ibyF0-fWE2AT3dEpwIltKw)]
-4. (In [argman/EAST](https://github.com/argman/EAST)) Resnet_V1_50 Models provided by tensorflow slim: [[slim_resnet_v1_50](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)]
+4. (In [argman/EAST](https://github.com/argman/EAST)) Resnet_V1_50 Models provided by tensorflow slim: [[slim_resnet_v1_50](https://pan.baidu.com/s/1PFiJ7YKeoLKiF0dRPocvNg)]
 
 ### Demo
 Download the pre-trained models and run:
