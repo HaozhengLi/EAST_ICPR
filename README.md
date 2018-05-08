@@ -1,4 +1,4 @@
-# EAST_ICPR
+# EAST_ICPR: EAST for ICPR MTWI 2018 CHALLENGE
 
 ### Introduction
 This is a repository forked from [argman/EAST](https://github.com/argman/EAST) for the [ICPR MTWI 2018 CHALLENGE](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.144ed780W1xl9s&raceId=231651).
