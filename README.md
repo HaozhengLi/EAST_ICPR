@@ -19,7 +19,7 @@ Author: [Haozheng Li](https://github.com/HaozhengLi)
 ### Transform
 Some data in the dataset is abnormal, just like [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651). Abnormal means that the ground true labels are anticlockwise, or the images are not in 3 channels. Then errors like ['poly in wrong direction'](https://github.com/argman/EAST/issues?utf8=%E2%9C%93&q=poly+in+wrong+direction) will occur while using [argman/EAST](https://github.com/argman/EAST).
 
-So I wrote a matlab program to check and transform the dataset. The program named <[transform.m](https://github.com/HaozhengLi/EAST_ICPR/tree/master/data_transform/transform.m)> is in the folder 'data_transform/' and its parameters are descripted as blow:
+So I wrote a matlab program to check and transform the dataset. The program named <[transform.m](https://github.com/HaozhengLi/EAST_ICPR/tree/master/data_transform/transform.m)> is in the folder 'data_transform/' and its parameters are descripted as bellow:
 ```
 icpr_img_folder = 'image_9000\';                   %origin images
 icpr_txt_folder = 'txt_9000\';                     %origin ground true labels
