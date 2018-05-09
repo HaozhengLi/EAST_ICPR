@@ -57,7 +57,7 @@ python multigpu_train.py --gpu_list=0 --input_size=512 --batch_size_per_gpu=8 \
 --text_scale=512 --training_data_path=data/ICPR2018/ --geometry=RBOX \
 --learning_rate=0.0001 --num_readers=18 --max_steps=50000
 ```
-***Note 1: Images and ground true labels files must be renamed as <img_1>, <img_2>, ..., <img_xxx> while using argman/EAST. Please see the examples in the folder 'training_samples/'.
+***Note 1: Images and ground true labels files must be renamed as <img_1>, <img_2>, ..., <img_xxx> while using [argman/EAST](https://github.com/argman/EAST). Please see the examples in the folder 'training_samples/'.
 <br>Note 2: If ```--restore=True```, training will restore from checkpoint and ignore the ```--pretrained_model_path```. If ```--restore=False```, training will delete checkpoint and initialize with the ```--pretrained_model_path``` (if exists).
 <br>Note 3: See [argman/EAST#train](https://github.com/argman/EAST#train) for more details.***
 
