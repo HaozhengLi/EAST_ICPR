@@ -149,6 +149,7 @@ def main(argv=None):
                                          batch_size=FLAGS.batch_size_per_gpu * len(gpus))
 
         start = time.time()
+        print('Initialize global step: {:.0f}, learning rate: {:.20f}'.format(sess.run(global_step), sess.run(learning_rate)))
         for step in range(FLAGS.max_steps):
             data = next(data_generator)
             ml, tl, _ = sess.run([model_loss, total_loss, train_op], feed_dict={input_images: data[0],
