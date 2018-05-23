@@ -92,7 +92,8 @@ icdar_gt_folder = 'txt_10000\';        %inversely renamed result labels files
 Then zip the results in 'txt_10000/' and submit it to the [ICPR MTWI 2018 CHALLENGE](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.144ed780W1xl9s&raceId=231651).
 
 ### Results
-Finally our model <[east_icpr2018_resnet_v1_50_rbox_1035k](https://pan.baidu.com/s/1jfjDxS4uknVavaOMO_wZQA)> rank 31 in the [ICPR MTWI 2018 CHALLENGE](https://tianchi.aliyun.com/competition/rankingList.htm?spm=5176.11165320.0.0.13eb6a9e8WAPZe&season=0&raceId=231651&pageIndex=2).
+Finally our model <[east_icpr2018_resnet_v1_50_rbox_1035k](https://pan.baidu.com/s/1jfjDxS4uknVavaOMO_wZQA)> rank 31 in the [ICPR MTWI 2018 CHALLENGE](https://tianchi.aliyun.com/competition/rankingList.htm?spm=5176.11165320.0.0.13eb6a9e8WAPZe&season=0&raceId=231651&pageIndex=2):
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/rank_31.png)
 
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651):
 <br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_1.jpg)
