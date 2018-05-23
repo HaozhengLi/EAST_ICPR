@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1035262"
+all_model_checkpoint_paths: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1031222"
+all_model_checkpoint_paths: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1032232"
+all_model_checkpoint_paths: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1033242"
+all_model_checkpoint_paths: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1034252"
+all_model_checkpoint_paths: "/home/scut214/WUQ/AliOCR/EAST/models/east_icpr2018_resnet_v1_50_rbox_968k/model.ckpt-1035262"

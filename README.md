@@ -44,7 +44,7 @@ transform_list_name = 'transform_list.txt';        %file name of the rename list
 ### Demo
 Download the pre-trained models and run:
 ```
-python run_demo_server.py --checkpoint-path models/east_icpr2018_resnet_v1_50_rbox_100k/
+python run_demo_server.py --checkpoint-path models/east_icpr2018_resnet_v1_50_rbox_1035k/
 ```
 Then Open http://localhost:8769 for the web demo server, or get the results in 'static/results/'.
 <br>***Note: See [argman/EAST#demo](https://github.com/argman/EAST#demo) for more details.***
@@ -78,7 +78,7 @@ rename_list_name = 'rename_list.txt';                  %file name of the rename 
 After you have prepared the test set, run:
 ```
 python eval.py --test_data_path=data/ICPR2018/ --gpu_list=0 \
---checkpoint_path=models/east_icpr2018_resnet_v1_50_rbox_100k/ --output_dir=results/100k/
+--checkpoint_path=models/east_icpr2018_resnet_v1_50_rbox_1035k/ --output_dir=results/1035k/
 ```
 Then get the results in 'results/'.
 
@@ -96,11 +96,11 @@ Finally our model <[east_icpr2018_resnet_v1_50_rbox_1035k](https://pan.baidu.com
 <br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/rank_31.png)
 
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4ec66a80qvIKLc&raceId=231651):
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_1.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_2.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_3.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_4.jpg)
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_5.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/1035k/img_1.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/1035k/img_2.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/1035k/img_3.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/1035k/img_4.jpg)
+<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/1035k/img_5.jpg)
 
 # Have fun!! :)
 
